@@ -21,9 +21,27 @@
 // alert(adultYears)
 
 // function example
-let adultYears;
+// let adultYears;
 
-function calculateAdultYears() {
-    adultYears = age - 18
+// function calculateAdultYears() {
+//     adultYears = age - 18;
+// }
+// calculateAdultYears();
+
+// function calculateAdultYears() {
+//     totalAdultyears = age - 18;
+// }
+// totalAdultYears = calculateAdultYears();
+
+// function parameters
+function calculateAdultYears(userAge) {
+    return age - 18;
 }
-calculateAdultYears();
+age = 45;
+totalAdultYears = calculateAdultYears(age);
+
+alert(totalAdultYears);
+
+
+
+
