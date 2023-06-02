@@ -13,5 +13,17 @@
 
 // let age prompt("what is your age?")
 
-let adultYears = 18;
-alert(adultYears)
+// let adultYears = 18;
+// // alert(adultYears)
+
+// age = 45
+// let adultYears = age -18
+// alert(adultYears)
+
+// function example
+let adultYears;
+
+function calculateAdultYears() {
+    adultYears = age - 18
+}
+calculateAdultYears();
